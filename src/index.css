@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.seltectedStyle{
+    background-image: url("./UI/assits/background.webp");
+    width: 100%;
+    
+}
+
+.sideNav{
+    background-color: white ;
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid #333;
+    position: absolute;
+    left: -120%;
+    transition: all .7s;
+    z-index: 10000;
+
+}
+.sideNav.active{
+    left: 0;
+}
+/* General arrow styles */
+
+.optionBare{
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #00000015;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+}
+.option{
+    background-color: white;
+    height: 100vh;
+    
+    margin-left: auto;
+}
+.infoDiv{
+    opacity: 0;
+    transition: all .7s
+ }
+ .infoDiv.show{
+    opacity: 1;
+ }
