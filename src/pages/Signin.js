@@ -86,7 +86,7 @@ const navigate = useNavigate()
                 value={formiksignIN.values.email}
                 type="text"
                 name="email"
-                placeholder="john@gmail.com"
+                placeholder="root@gmail.com"
                 className="px-3 py-2 mt-4 border-b-[1px] border-black w-full sm:w-2/3 focus:outline-none"
               />
               {formiksignIN.errors.email && formiksignIN.touched.email ? (
@@ -99,7 +99,7 @@ const navigate = useNavigate()
                 value={formiksignIN.values.password}
                 type="password"
                 name="password"
-                placeholder="1234"
+                placeholder="123456"
                 className="px-3 py-2 mt-4 border-b-[1px] border-black w-full sm:w-2/3 focus:outline-none"
               />
               {formiksignIN.errors.password &&
